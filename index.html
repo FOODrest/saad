@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didot&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Oswald:wght@500&family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didot&display=swap">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        div,p,img,h1,h2 {
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+        ul {
+            list-style: none;
+        }
+        .first{
+            width: 90%;
+            margin-left: 5%;
+            position: fixed;
+            z-index: 999;
+        }
+        ul li{
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+        }
+        .links li a:hover{
+            color: rgb(56, 55, 55);
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+        }
+        header nav h2 a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 25px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
+        .menu{
+            width:250px;
+        }
+        .menu .links{
+            display: flex;
+            justify-content: space-between;
+        }
+        .head{
+            background-image: url(img.jpg);
+            background-size: cover;
+            background-repeat: none;
+            height: 700px;
+        }
+        .head div {
+            padding: 10px 30px 50px 30px;
+            color: white;
+        }
+        .head div div h1{
+            width: 50%;
+            font-size: 80px;
+        }
+        .one{
+            display: flex;
+            justify-content: space-between;
+        }
+        .one div{
+            align-items: end;
+            margin-top: 50px;
+        }
+        .btn {
+            padding-bottom:0px;
+            margin-bottom:0px;
+            font-weight:900
+        }
+        .two div a{
+            border: 1px solid white;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 2px;
+            font-size: 20px;
+        }
+        .two div a:hover{
+            color: white;
+            background-color: transparent;
+        }
+
+        .two div{
+            align-self: center;
+        } 
+        .two{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+        .two .btn{
+            align-self: center;
+        }
+        .two div div img{
+            height: 70px;
+            width: auto;
+            border-radius: 50%;
+        }
+        .fa.fa-facebook{
+            color: #ffffff;
+            margin-right: 20px;
+            height: 30px;
+            width: 35px;
+            padding: auto;
+            text-align: center;
+            font-size: x-large;
+            padding-top: 5px;
+            border-radius: 10px;
+            margin-top: 70px;
+            }
+            .fb a:hover{
+            background-color: #1877F2;
+            color: #f5f5f5;
+            }
+            .fa.fa-instagram{
+            color: #ffffff;
+            background: transparent;
+            margin-top: 70px;
+            height: 30px;
+            width: 35px;
+            padding: auto;
+            text-align: center;
+            font-size: x-large;
+            padding-top: 5px;
+            border-radius: 10px;
+            }
+            .insta a:hover{
+                background: linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FFD23F);
+            }
+            .socials{
+            display: flex;
+            width:95%;
+            justify-content: right;
+            }
+
+              .staff{
+                width: 100%;
+                height: auto;
+              }
+              .staff .all{
+                width: 90%;
+                margin-left: 5%;
+              }
+              .staff .all .uno{
+                width: 80%;
+                margin-left: 10%;
+                text-align: center;
+                margin-top: 25px;
+                margin-bottom: 70px;
+              }
+              .staff .all .uno h1{
+                font-size: 60px;
+                font-weight: 600;
+              }
+              .staff.all .uno p{
+                font-weight: 300;
+              }
+              .team{
+                display: flex;
+                line-height: 30px;
+                position: relative;
+                font-size: 20px;
+                width: 100%;
+                margin-bottom: 20px;
+              }
+              .team1{
+                width: 100%;
+                border-right: 0.5px solid #747171;
+                padding-right: 40px;
+              }
+              .team2{
+                padding-left: 40px;
+                border-left: 0.5px solid #747171;
+                width: 100%;
+              }
+              .sokanya,.saad{
+                text-align: center;
+                width: 100%;
+              }
+              .team div div .img{
+                height: 150px;
+                width: auto;
+                border-radius: 50%;
+              }
+              .three{
+                padding-top: 0px;
+                width:92%;
+                word-spacing:1px;
+                padding-bottom:0;
+                font-size:15px;
+                display: flex;
+                justify-content: space-between;
+              }
+              .three p{
+                width: 40%;
+              }
+              @media screen and (max-width:1100px) {
+                .head div div h1{
+                    width: 100%;
+                    padding-bottom: 30px;
+                }
+                .two{
+                    display: block;
+                    font-size: 14px;
+                }
+                .two img{
+                    height: 30px;
+                    width: auto;
+                }
+                .two div{
+                    width: 100%;
+                    padding-right: 0px;
+                }
+                .three{
+                    font-size: small;
+                    width: 80%;
+                }
+                .three p{
+                    width: 90%;
+                    padding-top: 50px;
+                }
+
+              }
+              @media screen and (max-width:980px){
+                .head div div h1{
+                    width: 100%;
+                    padding-bottom: 30px;
+                    font-size: 50px;
+                }
+                .one{
+                    display: block;
+                }
+                .btn{
+                    width: 100%;
+                    text-align: left;
+                }
+                .two div{
+                    width: 100%;
+                }
+
+
+              }
+              @media screen and (max-width:650px) {
+                .head div div h1{
+                    width: 100%;
+                    padding-bottom: 20px;
+                    font-size: 40px;
+                }
+                .two div{
+                    width: 100%;
+                    padding-bottom: 8px;
+                }
+                .three p{
+                    padding-top: 35px;
+                }
+                .team1{
+                    padding-right: 20px;
+                }
+                .team2{
+                    padding-left: 20px;
+                }
+                
+              }
+              .menu-btn {
+                display: none;
+                cursor: pointer;
+                font-size: 30px;
+                color: #f8f3f3;
+                font-weight: 700;
+                }
+                
+  .background {
+    display: flex;
+    height: 700px;
+    background-color: #000000;
+  }
+  
+  .container {
+    flex: 0 1 900px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    position: relative;
+    background: #5e5d5d;
+    border-radius: 15px;
+    padding-top: 70px;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }     
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: rgb(255, 255, 255);
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 10px;
+    color: #ffffff;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    margin-right: 0px;
+    text-align: right;
+
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .app-form-button:hover {
+    opacity: 0.8;
+    margin-left:auto;
+    margin-right:auto;
+    transition: all 0.5s;
+  }
+  footer{
+    background-color: rgb(19, 16, 14);
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    height: 70px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.first {
+    transition: background-color 0.2s ease;
+  }
+  
+  .first.scrolled {
+    background-color: #000000;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .first.scrolled >header {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .first.scrolled >hr{
+    display: none;
+  }
+  @media (max-width: 1100px) {
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        color: #f8f3f3;
+        font-weight: 700;
+        margin-right: 20px;
+        z-index: 1999; /* Higher z-index */
+    }
+    
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.99);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        z-index: 999;
+        width: 100%;
+    }
+    
+    .menu.active {
+    display: flex;
+    flex-direction: column;
+    }  
+
+    .menu .links{
+        display: block;
+    } 
+    .menu ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .menu ul li {
+        font-size: x-large;
+        background-size: auto;
+        margin: 40px 0;
+        padding: 40px auto 40px auto;
+    }
+}
+  
+    </style>
+</head>
+<body>
+    <div class="first">
+    <header>
+            <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+            <nav class="menu" id="menu">
+                <ul class="links">
+                    <li><a href="index.html" style="color: #e4e2e2;">HOME</a></li><hr>
+                    <li><a href="services.html">SERVICES</a></li><hr>
+                    <li><a href="">PROJECTS</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <h2><a href="index.html">Smart Software Solutions</a></h2>
+            </nav>
+    </header>
+    <hr>
+    </div>
+    <div class="head">
+        <div class="socials"style="padding: 0 0 10px 0; margin:0 0 0 0">
+            <h2 class="fb"><a href="https://www.facebook.com/people/ELITE-CAR-service-RABAT/100091788020718/?mibextid=ZbWKwL" class="fa fa-facebook"></a></h2>
+            <h2 class="insta"><a href="https://www.instagram.com/elite_carservice_rabat/" class="fa fa-instagram"></a></h2>
+        </div>
+        
+        <div style="padding-bottom: 0;">
+            <div class="one" style="align-items:end">
+                <h1>
+                    Your Full-Stack Partner
+                </h1>
+                
+            </div>
+        </div>
+        <div style="margin-top:0 ;padding-bottom:5px" class="two">
+            <div style="padding-top:0;margin :0 0 0 0;" >
+                <div style="display: flex;padding-left:0;padding-bottom:10px">
+                    <img src="sokanya.png" alt="">
+                    <img src="saad.jpg" alt="" style="margin-left: -20px;">
+                </div>
+                
+                <p style="font-size: 17px;">meet our team</p>
+            </div>
+            <div class="btn" ><a href="">Contact us</a></div>
+            
+        </div>
+        <div  class="three">
+            <p>
+                At Smart Software Solutions , we are your end-to-end software solution partners, crafting innovative digital experiences that seamlessly bridge design, development, and deployment. As a dynamic full-stack team, we transform your ideas into reality, from conceptualizing captivating designs to flawlessly executing backend functionality. With a commitment to excellence, we navigate every step of the development journey, ensuring your projects not only meet but exceed expectations.
+            </p>
+        </div>
+    </div>
+    <div class="staff">
+        <div class="all">
+            <div class="uno">
+                <h1>OUR TEAM</h1>
+                <p>Welcome to our team! Get to know the faces behind our collaborative efforts! United by our shared goals and dedication.</p>
+            </div>
+            <div class="team">
+                <div class="team1">
+                    <div class="sokanya">
+                        <img src="sokanya.png" alt="" class="img"><br>
+                        <h2>Sokanya rollinson</h2>
+                        <br>
+                    </div>
+                    <div>
+                        <h6 style="font-weight: 300;">
+                            <b style="font-weight: 900;">Role :</b> CEO, Smart Software Solutions <br>
+                            <b style="font-weight: 900;">Expertise :</b> Full Stack Software Developer, Specializing in App Development <br>
+                            <b style="font-weight: 900;">Education :</b> Pursuing a Computer Science Degree <br>
+                            <b style="font-weight: 900;">About Sukanya :</b> Visionary CEO with a passion for app development, blending academic insights with real-world innovation. Also, a mentor guiding emerging talents.<br>
+                            <b style="font-weight: 900;">Skills :</b> Proficient in diverse programming languages and frameworks, creating user-centric apps that seamlessly integrate design and functionality.<br>
+                            <b style="font-weight: 900;">Leadership :</b> Drives Smart Software Solutions to deliver transformative tech solutions by identifying trends and fostering a skilled team.<br>
+                            <b style="font-weight: 900;">Mentorship :</b> Committed mentor, guiding and nurturing emerging talents to excel in the software development field.<br>
+                            <b style="font-weight: 900;">Vision :</b> Envisions a tech landscape where apps enrich user lives, making complex tasks effortless and enhancing interactions.<br>
+                        </h6>
+                    </div>
+                </div>
+                <div class="team2">
+                    <div class="saad">
+                        <img src="saad.jpg" alt="" class="img"><br>
+                        <h2>Saad Rajeb</h2><br>
+                    </div>
+                    <div>
+                        <h6 style="font-weight: 300;">
+                            <b style="font-weight: 900;">Role :</b>  Junior Freelance Web Developer & 2nd Year Embedded Systems Student <br>
+                            <b style="font-weight: 900;">About Saad :</b> Passionate about blending web development expertise with hardware-software integration. A mentee of Sukanya at Software Solutions, focusing on innovative, collaborative solutions that bridge the digital-physical gap.<br>
+                            <b style="font-weight: 900;">Skills :</b>  Proficient in HTML, CSS, JavaScript; hardware-software integration<br>
+                            <b style="font-weight: 900;">Vision :</b>  Transforming user experiences through interactive websites connecting with smart devices and sensors.<br>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="background" id="cantact">
+        <div class="container" >
+            <div class="screen" style="height: 400px;">
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                   <div class="app-title">
+                     <span>CONTACT</span>
+                     <span>US</span>
+                    </div>
+                   <div class="app-contact">CONTACT INFO : 111111111111</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <form id="contactForm" method="post"class="app-form">
+                        <div class="app-form-group">
+                            <input id="name" class="app-form-control" placeholder="NAME" required>
+                        </div>
+                        <div class="app-form-group">
+                            <input type="tel" id="tel" class="app-form-control" pattern="^(06|07)[0-9]{8}$" placeholder="06/05-11111111" required>
+                        </div>
+                        <div class="app-form-group message">
+                            <input id="message" class="app-form-control" placeholder="MESSAGE" required >
+                        </div>
+                        <div class="app-form-group buttons">
+                            <button class="app-form-button"  type="submit">SEND</button>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>      
+        </div>
+        <div>
+          <footer>
+              <div class="copyright">
+              &copy; Smart Software Solutions-Tout Droit Sont Reservé 
+  
+              </div>
+          </footer>
+    <script src="scroll.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
